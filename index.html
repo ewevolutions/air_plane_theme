@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark</title>
+    
+    <!-- ******* Global File ****** -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- ******* Font Face File ****** -->
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <!-- ******* On Scroll Animation ****** -->
+    <link rel="stylesheet" href="./assets/plugins/aos/aos.css">
+</head>
+
+<body>
+
+    <!-- ==================== Sub Header Start ==================== -->
+    <div class="sub_header">
+        <a class="link-primary" href="#">Announcing our $32 million Series B
+            <span class="hidden sm-inline">from Thrive</span>
+        </a>
+    </div>
+    <!-- ==================== Sub Header End ==================== -->
+    
+
+    <!-- ==================== Header Gradient Start ==================== -->
+    <div class="absolute top-0 left-0 w-screen h-screen overflow-hidden pointer-events-none select-none md-hidden">
+        <div class="md-hidden header_bgGradient header_isSadfari">
+            <img alt="gradient" src="assets/media/home/gradient-1-mobileb8a8.png" width="467" height="403" />
+        </div>
+    </div>
+    <div class="hidden md-block header_bgGradient header_isSadfari">
+        <img alt="gradient" src="assets/media/home/gradient-16e2c.png" width="1212" height="403" />
+    </div>
+    <!-- ==================== Header Gradient End ==================== -->
+
+
+    
+    <!-- ==================== Header Start ==================== -->
+    <header id="main-header" class="header_header">
+        <div class="header_wrapper mx-auto container max-w-1440px">
+            <nav class="flex items-center justify-between flex-1">
+                
+                <!-- ********** Logo Start ********** -->
+                <a aria-label="Home" href="index.html">
+                    <img src="./assets/media/logo/logo.svg" width="184" height="140" class="logo_logo"  alt="">
+                </a>
+                <!-- ********** Logo End ********** -->
+
+
+                <!-- ********** Toggle Button Start ********** -->
+                <div class="md-hidden">
+                    <div class="flex items-center toggleMenu">
+                        <button class="mobile-menu_menuButton w-16 h-16 -mr-6 rounded-xl relative ">
+                            <span class="sr-only">toggle menu</span>
+                            <svg class="absolute w-16 h-16 -translate-x-1/2 -translate-y-1/2 pointer-events-none left-1/2 top-1/2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <path class="mobile-menu_line1" d="M0 70l28-28c2-2 2-2 7-2h64"></path>
+                                <path class="mobile-menu_line2" d="M0 50h99"></path>
+                                <path class="mobile-menu_line3" d="M0 30l28 28c2 2 2 2 7 2h64"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- ********** Toggle Button End********** -->
+
+
+                <!-- ********** Nav Menu Start ********** -->
+                <div class="hidden w-fit md-flex flex-nowrap absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 space-x-20px xl-space-x-30px">
+                    <a class="header_link inline-block link-primary whitespace-nowrap" href="#">Case Studies</a>
+                    <a class="header_link inline-block link-primary whitespace-nowrap" target="_blank" href="#">Docs</a>
+                    <a class="header_link inline-block link-primary whitespace-nowrap" target="_blank" href="#">Templates</a>
+                    <a class="header_link inline-block link-primary whitespace-nowrap" href="#">Pricing</a>
+                    <a class="header_link inline-block link-primary whitespace-nowrap" href="#">Blog</a>
+                    <a class="header_link inline-block link-primary whitespace-nowrap !hidden lg-!inline-block" href="#">Careers</a>
+                </div>
+                <!-- ********** Nav Menu End ********** -->
+
+
+                <!-- ********** Nav Buttons Start ********** -->
+                <div class="hidden font-semibold md-block">
+                    <a class="header_demoLink link-primary mr-3 xl-mr-6 !hidden xl-!inline-block" href="#">Book a demo</a>
+                    <a class="header_signInLink link-primary mr-3 xl-mr-6" href="#">Log in</a>
+                    <a class="header_signUpLink link-primary" href="#">Sign up</a>
+                </div>
+                <!-- ********** Nav Buttons End ********** -->
+
+            </nav>
+        </div>
+    </header>
+    <!-- ==================== Header End ==================== -->
+
+
+    <!-- ==================== Mobile Header Start ==================== -->
+    <div id="spark-portal">
+        <div aria-hidden="false" class="bottom-full max-h-screen flex flex-col fixed z-50 left-0 right-0 bg-gray-600 visible mx-auto container max-w-1440px"
+            style="top: calc(var(--header-inner-height) + -1px); bottom: 0px;">
+            <div class="relative z-10 flex flex-col mt-4 space-y-2 text-white pl-14">
+                <div class="top-0 left-0 dimesion_container dimesion_p-default dimesion_d-vertical aside-menu-line">
+                    <div class="dimesion_dimension"> <p>Menu</p> </div>
+                </div>
+                <a class="mobile-menu_active text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Home</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Case Studies</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Docs</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px"  href="#">Templates</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Pricing</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Blog</a>
+                <a class="text-4xl motion-safe:opacity-0 font-mono uppercase link-primary mobile_menu_link w-fit before-h-2px" href="#">Careers</a>
+            </div>
+            <div class="relative mt-auto pb-4">
+                <div id="bg-grid" class="absolute left-1/2 -translate-x-1/2 w-full bottom-56px pr-1 h-168px" style="opacity: 1;">
+                    <div class="w-full h-full bg-grid" style="clip-path: polygon(1% 0px, 100% 0px, 100% 100%, 1% 100%);"></div>
+                </div>
+                <div id="social-links-n-policy">
+                    <div class="relative z-10 flex justify-center my-12 space-x-6" style="transform: scaleY(var(--motion-scaleY)); opacity: 1; --motion-scaleY:1;">
+                        <a href="#" class="mobile-menu_social-links link-secondary" target="_blank">
+                            <img src="./assets/media/home/linkedin.svg" alt="">
+                        </a>
+                        <a href="#" class="mobile-menu_social-links link-secondary" target="_blank">
+                            <img src="./assets/media/home/twitter.svg" alt="">
+                            
+                        </a>
+                        <a href="#" class="mobile-menu_social-links link-secondary" target="_blank">
+                            <img src="./assets/media/home/youtube.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="relative z-10 mx-auto mb-4 text-xs" style="transform: scaleY(var(--motion-scaleY)); opacity: 1; --motion-scaleY:1;">
+                        <div class="flex justify-between space-x-2 uppercase">
+                            <a class="hover:underline" href="#">Terms of Service</a>
+                            <span>·</span>
+                            <a class="hover:underline" href="#">Privacy Policy</a>
+                            <span>·</span>
+                            <a class="hover:underline" href="#">Security</a>
+                        </div>
+                        <p class="mt-2 text-center uppercase">Copyright © 2023 spark Labs, Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== Mobile Header End ==================== -->
+
+
+    <section class="relative">
+        <div class="hidden pt-20 md-flex min-h-calc(100vh-var(--header-height)) d-flex">
+            <div class="w-full">
+                <div class="relative z-10 mx-auto container max-w-1210px">
+
+                    <!--==================== Hero Start ==================== -->
+                    <div class="relative z-20 mx-auto mb-20 w-fit">
+
+
+                        <!--******************** Hero SVG Shape View Start ******************** -->
+                        <div class="absolute top-60px left--80px d-sm-none">
+                            <svg width="64" height="66" viewBox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="motion-safe:opacity-0"
+                                    d="M15.5953 48.4689C15.8843 48.7176 16.3202 48.6849 16.5689 48.3959L20.6215 43.6861C20.8702 43.3971 20.8375 42.9612 20.5485 42.7125C20.2595 42.4638 19.8236 42.4965 19.5749 42.7855L15.9726 46.972L11.7861 43.3697C11.497 43.121 11.0611 43.1537 10.8125 43.4427C10.5638 43.7317 10.5965 44.1676 10.8855 44.4163L15.5953 48.4689ZM33.5158 0.503342C26.7557 7.03035 13.6795 25.6285 15.3571 47.9972L16.734 47.894C15.0979 26.0786 27.8877 7.85668 34.4749 1.49666L33.5158 0.503342Z"
+                                    fill="#F4F4F5"
+                                    style="transform-origin: 100% 0px; opacity: 1; transform: rotate(0deg) translateX(0px) translateY(0px) scaleY(1);">
+                                </path>
+                                <rect class="motion-safe:opacity-0" y="54" width="63.5146" height="11.046"
+                                    fill="url(#paint0_linear_16_10233)"
+                                    style="transform-origin: 0px 100%; opacity: 1; transform: translateX(0px) scaleX(1);">
+                                </rect>
+                                <defs>
+                                    <linearGradient id="paint0_linear_16_10233" x1="0" y1="65.046" x2="63.5146"
+                                        y2="65.046" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#A8D9CC"></stop>
+                                        <stop offset="1" stop-color="#29328D"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="absolute top-260px left-20px d-sm-none">
+                            <svg width="72" height="95" viewBox="0 0 72 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="motion-safe:opacity-0" d="M71 26.1161L28 2V49.9062L71 75V26.1161Z"
+                                    stroke="#F4F4F5" stroke-width="1.29824"
+                                    style="opacity: 1; transform: translate(0px, 0px);"></path>
+                                <path class="motion-safe:opacity-0" d="M57 34.4464L15 10V58.5625L57 84V34.4464Z"
+                                    fill="url(#:r0:-1-paint0_linear_18_10234)"
+                                    style="transform-origin: 50% 50%; opacity: 1; transform: scale(1);"></path>
+                                <path class="motion-safe:opacity-0" d="M44 44.1161L1 20V67.9062L44 93V44.1161Z"
+                                    stroke="#F4F4F5" stroke-width="1.29824"
+                                    style="opacity: 1; transform: translate(0px, 0px);"></path>
+                                <defs>
+                                    <linearGradient id=":r0:-1-paint0_linear_18_10234" x1="15.8571" y1="83.9999"
+                                        x2="56.7857" y2="83.9999" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FF6B3B"></stop>
+                                        <stop offset="1" stop-color="#AD52DD"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="absolute top--20px right--100px d-sm-none">
+                            <svg width="70" height="86" viewBox="0 0 70 86" fill="none" xmlns="http://www.w3.org/2000/svg" class="motion-safe:opacity-0"
+                                style="opacity: 1; transform: translate(0px) rotateY(0deg);">
+                                <path d="M47 28.4286L1 2V54.5L47 82V28.4286Z" stroke="#F4F4F5" stroke-width="1.29824">
+                                </path>
+                                <circle class="motion-safe:opacity-0" cx="64" cy="80" r="6"
+                                    fill="url(#:r1:_paint0_linear_18_10235)"
+                                    style="transform-origin: 100% 50%; opacity: 1; transform: translateY(0px) translateX(0px) scale(1);">
+                                </circle>
+                                <defs>
+                                    <linearGradient id=":r1:_paint0_linear_18_10235" x1="58.2449" y1="86" x2="69.9388"
+                                        y2="86" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FF6B3B"></stop>
+                                        <stop offset="1" stop-color="#AD52DD"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="absolute top-210px right-20px d-sm-none">
+                            <svg class="motion-safe:opacity-0" width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                style="transform-origin: 0% 100%; opacity: 1; transform: translateX(0px);">
+                                <circle cx="28" cy="28" r="27.3509" stroke="#F4F4F5" stroke-width="1.29824"></circle>
+                                <rect x="34" y="22" width="35" height="6" fill="url(#:r2:-1-paint0_linear_18_10236)"
+                                    style="opacity: 1; transform: translateX(0px) scaleX(1);"></rect>
+                                <path
+                                    d="M69.6838 53.1599C69.7721 52.8125 69.5621 52.4592 69.2146 52.3709L63.5527 50.9314C63.2052 50.8431 62.8519 51.0531 62.7636 51.4006C62.6753 51.748 62.8853 52.1013 63.2328 52.1896L68.2656 53.4692L66.9861 58.502C66.8978 58.8495 67.1078 59.2028 67.4553 59.2911C67.8027 59.3794 68.156 59.1694 68.2443 58.8219L69.6838 53.1599ZM68.7229 52.4421L40.6681 69.1233L41.3316 70.2392L69.3864 53.5579L68.7229 52.4421Z"
+                                    fill="#F4F4F5"
+                                    style="transform-origin: 0% 100%; opacity: 1; transform: translateX(0px) translateY(0px);">
+                                </path>
+                                <defs>
+                                    <linearGradient id=":r2:-1-paint0_linear_18_10236" x1="34" y1="28" x2="69" y2="28"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#2F3CC9"></stop>
+                                        <stop offset="1" stop-color="#AD52DD"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <!--******************** Hero SVG Shape View End ******************** -->
+
+
+                        <!--******************** Hero Content Start ******************** -->
+                        <div class="flex flex-col items-center">
+                            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="font-medium scroll-snap-none text-overtitle font-display text-5.5xl md-text-6.5xl lg-text-7.5xl text-center motion-safe:opacity-0" style="transform: translateY(0px); opacity: 1;">
+                                <span class="text-gradient_textGradient1 text-gradient_anime" style="background-size: var(--from-background-position, 300% auto);">
+                                    Developer infrastructure
+                                </span>
+                                <br class="hidden md-block">for internal tools
+                            </h1>
+                            <p data-aos="fade-up" class="text-xl md-text-2xl max-w-xl mx-auto mt-6 text-center text-gray-50 motion-safe:opacity-0" style="transform: translateY(0px); opacity: 1;">
+                                spark is a developer-centric approach  to building internal UIs and workflows.
+                            </p>
+                            <div data-aos="fade-up" class="flex space-x-4 mt-9 motion-safe:opacity-0" style="transform: translateY(0px); opacity: 1;">
+                                <a href="#" class="inline-flex items-center justify-center button_variant-primary button_size-default">
+                                    <span>Sign  up</span>
+                                </a>
+                                <a target="_blank" rel="noopener" href="#" class="inline-flex items-center justify-center button_variant-secondary button_size-default read-doc">
+                                    <span>Read the docs</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!--******************** Hero Content End ******************** -->
+
+
+                    </div>
+                    <div class="relative flex justify-center" style="overflow: hidden;">
+                        <div class="absolute w-1000px h-400px md-w-1201px md-h-553px -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 motion-safe:opacity-0"
+                            style="transform: translate(-50%, -50%) scale(1); opacity: 1; transform-origin: 50% 50%;">
+                            <div class="bg-grid"></div>
+                        </div>
+                        <!--******************** Video Player Image View Start ******************** -->
+                        <div class="video_videoPlayer relative z-20 transition-opacity duration-1000 overflow-hidden opacity-1" role="button" aria-label="Play video" style="width: 1120px;">
+                            <div class="w-full pb-100% md-pb-72% lg-pb-56% relative overflow-hidden pointer-events-none">
+                                <div class="flex w-95% md-w-80% lg-w-70% absolute left-1/2 top-55% md-top-56% lg-top-56% translate-x--50% translate-y--50% z-30 border-gradient-1">
+                                    <img src="assets/media/home/poster3345.png" />
+                                </div>
+                                <div class="absolute right-0 md-right-20px h-100px md-h-120px bottom-0 w-250px md-w-350px z-40 bg-gray-600 border-gradient-1">
+                                    <div class="title-bar_titleBar bg-gradient-1">
+                                        <div class="title-bar_dots"></div>
+                                        <p class="font-mono text-xs !m-0">Terminal.app</p>
+                                    </div>
+                                    <div class="p-2 md-p-4">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-xs no-scrollbar language-shellsession" tabindex="0">
+<code class="language-shellsession"><span class="token command"><span class="token shell-symbol important">$</span> <span class="token bash language-bash">spark deploy ./apps</span></span>
+<span class="token output">Deploying 1 view and 3 tasks...
+Success!
+</span>
+</code>
+</pre>
+                                    </div>
+                                </div>
+                                <div class="absolute left-0% md-left-0 top-0 md-top-6% lg-top-6% w-400px max-w-90% md-w-500px z-20 bg-gray-600 border-gradient-2">
+                                    <div class="title-bar_titleBar bg-gradient-2">
+                                        <div class="title-bar_dots"></div>
+                                        <p class="font-mono text-xs !m-0">Dashboard.spark.tsx</p>
+                                    </div>
+                                    <div class="py-2 pr-2 md-py-4 md-pr-4">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-xs line-numbers no-scrollbar language-jsx" tabindex="0">
+<code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">CustomerDashboard</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Customer dashboard</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+      Warning, sensitive operations ahead!
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Table</span></span>
+      <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Customers<span class="token punctuation">"</span></span>
+      <span class="token attr-name">task</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list_customers<span class="token punctuation">"</span></span>
+      <span class="token attr-name">rowActions</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation"></span><span class="token string">"deactivate"</span><span class="token punctuation"></span><span class="token punctuation">}</span></span>
+    <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+  </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+                                    </div>
+                                </div>
+                                <div class="absolute right-0 top-0 w-80% md-w-350px z-10 hidden md-block bg-gray-600 border-gradient-3">
+                                    <div class="title-bar_titleBar bg-gradient-3">
+                                        <div class="title-bar_dots"></div>
+                                        <p class="font-mono text-xs !m-0">enableBeta.spark.ts</p>
+                                    </div>
+                                    <div class="py-2 pr-2 md-py-4 md-pr-4">
+
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-xs line-numbers no-scrollbar language-jsx" tabindex="0">
+<code class="language-jsx"><span class="token keyword">import</span> <span class="token punctuation">{</span> toggleFlag <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"../lib/businessLogic"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> spark<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span>
+  <span class="token string">"enable_beta"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">(</span><span class="token parameter">params</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> reqID <span class="token operator">=</span> <span class="token function">toggleFlag</span><span class="token punctuation">(</span>
+      params<span class="token punctuation">.</span>teamName<span class="token punctuation">,</span> params<span class="token punctuation">.</span>products
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span> <span class="token string-property property">"confirmation"</span><span class="token operator">:</span> reqID <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/media/home/play-button.svg" class="video_playButton video_playshow">
+                        </div>
+                        <!--******************** Video Player Image View End ******************** -->
+                    </div>
+                    <!--==================== Hero End ==================== -->
+
+
+
+
+                    <!--==================== Brands Start ==================== -->
+                    <div class="flex flex-wrap items-center justify-center mt-20 space-x-32px gap-y-4 max-w-800px mx-auto">
+                        <div>
+                            <img alt="Zubale" src="assets/media/branding/logo-zubale.5d8eed72.svg" width="114" height="21" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Ralali" src="assets/media/branding/logo-ralali.e488a680.svg" width="78" height="31" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="CopyAI" src="assets/media/branding/logo-copyai.cb6e6f24.svg" width="78" height="31" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Box" src="assets/media/branding/logo-box.eca999da.svg" width="67" height="37" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Zip" src="assets/media/branding/logo-zip.712e7e18.svg" width="81" height="30" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Flip" src="assets/media/branding/logo-flip.44acc040.svg" width="50" height="49" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Condé Nast" src="assets/media/branding/logo-condenast.80ed6bfb.svg" width="128" height="19" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Flatfile" src="assets/media/branding/logo-flatfile.1ede3f74.svg" width="102" height="24" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Panther" src="assets/media/branding/logo-panther.7999635a.svg" width="120" height="30" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Dover" src="assets/media/branding/logo-dover.40a3e93f.svg" width="87" height="29" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="Vercel" src="assets/media/branding/logo-vercel.fbbd3b86.svg" width="104" height="24" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                        <div>
+                            <img alt="The Delta" src="assets/media/branding/logo-delta.6fc53632.svg" width="89" height="27" class="transition-opacity opacity-60 hover:opacity-90" loading="lazy" />
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center mt-10 space-x-6">
+                        <a class="link-primary link-arrow text-soft-cyan" href="#">Case studies</a>
+                    </div>
+                    <!--==================== Brands End ==================== -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== Video Start ==================== -->
+    <div class="play-video-ui video_playshow">
+        <button class="absolute p-4 rounded-full bg-black/40 right-8 top-8">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.2781 16.2635L2.72176 0.707107C2.33123 0.316583 1.69807 0.316583 1.30754 0.707107L0.836137 1.17851C0.445613 1.56904 0.445613 2.2022 0.836138 2.59273L16.3925 18.1491C16.783 18.5396 17.4162 18.5396 17.8067 18.1491L18.2781 17.6777C18.6686 17.2871 18.6686 16.654 18.2781 16.2635Z" fill="#FAFAFA"></path>
+                <path d="M0.721896 16.2635L16.2782 0.707107C16.6688 0.316583 17.3019 0.316583 17.6925 0.707107L18.1639 1.17851C18.5544 1.56904 18.5544 2.2022 18.1639 2.59273L2.60751 18.1491C2.21699 18.5396 1.58382 18.5396 1.1933 18.1491L0.721896 17.6777C0.331372 17.2871 0.331372 16.654 0.721896 16.2635Z" fill="#FAFAFA"></path>
+            </svg>
+        </button>
+        <div class="relative top-1/2 -translate-y-1/2 overflow-hidden video_videoContainer mx-auto container max-w-1210px">
+            <div style="position: relative; width: 100%; padding-bottom: 62.4277%;">
+                <div style="position: absolute; inset: 0px;">
+                    <video autoplay controls class="w-full h-full rounded-lg">
+                        <source src="./assets/media/home/demo.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==================== Video End ==================== -->
+
+
+    <div class="space-y-20 md-space-y-32" style="overflow: hidden">
+        <section class="build-internal-uis_section relative mx-auto container max-w-1210px">
+
+            <!-- ********** Gradient Seprator Start ********** -->
+            <div style="will-change:opacity, transform" class="section_gradientContainer">
+                <img alt="gradient" src="assets/media/home/gradient-16e2c.png" width="1212" height="403" />
+            </div>
+            <!-- ********** Gradient Seprator End ********** -->
+
+
+            <div class="relative px-3 bg-gray-600 section-border-gradient-1 md-px-6 lg-px-16 xl-px-24 py-14 md-py-24">
+                <div class="relative z-10">
+                    <div class="absolute w-1100px h-402px -right-1/2 top-240px hidden lg-block">
+                        <div style="transform-origin:50% 50%" class="bg-grid"></div>
+                    </div>
+
+                    
+                    <!-- *********** Title Start *********** -->
+                    <div class="h-24px overflow-hidden">
+                        <div class="mb-2">
+                            <div class="flex items-center font-mono text-base uppercase gap-x-3 text-soft-cyan">
+                                Views <div class="inline-block text-xs px-2 border-gradient-2"> Beta</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="font-medium font-display text-4.5xl md-text-6xl lg-text-7.5xl relative z-10 mb-14">
+                        <span class="text-gradient_textGradient2">Internal UIs</span><br /> with a few lines of code
+                    </h2>
+                    <!-- *********** Title End *********** -->
+
+
+                    <div class="build-internal-uis_grid grid-rows-2">
+
+                    <!-- *********** For Mobile Start *********** -->
+                        <div class="build-internal-uis_border border-gradient-2 md-hidden">
+                            <div class="grid h-full place-items-center">
+                                <img src="assets/media/home/views-dashboard.svg" class="object-cover w-full h-full" />
+                            </div>
+                        </div>
+                        <div class="build-internal-uis_border border-gradient-2 md-ml--1px md-hidden">
+                            <div class="absolute w-calc(100%+2px) left--1px top--26px">
+                                <div class="title-bar_titleBar bg-gradient-2">
+                                    <div class="title-bar_dots"></div>
+                                    <p class="font-mono text-xs !m-0">Dashboard.spark.tsx</p>
+                                </div>
+                            </div>
+                            <div class="py-8 pl-2 pr-6">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-sm line-numbers no-scrollbar language-jsx" tabindex="0">
+    <code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">CustomerDashboard</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Customer dashboard</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Warning, sensitive operations ahead!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Table</span></span>
+        <span class="token attr-name">task</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list_customers<span class="token punctuation">"</span></span>
+        <span class="token attr-name">rowActions</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation"></span><span class="token string">"deactivate"</span><span class="token punctuation"></span><span class="token punctuation">}</span></span>
+        <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+                            </div>
+                        </div>
+                        <div class="hidden lg-block dimesion_container dimesion_p-default dimesion_d-vertical dimesion_noText" style="--margin:46px">
+                            <div class="dimesion_dimension"> <p></p> </div>
+                        </div>
+                    <!-- *********** For Mobile End *********** -->
+                        
+
+                        <!-- %%%%%%% Row start %%%%%%%% -->
+                        <a class="build-internal-uis_border border-gradient-2 md-border-gradient-2-rev" href="#">
+                            <div class="build-internal-uis_content max-w-370px">
+                                <h3 class="mb-4 text-2xl font-medium">Build views with React, minus the boilerplate.</h3>
+                                <p class="leading-1.48 text-gray-300 mb-4">spark Views
+                                    are built with React—the good parts. We&#x27;ve taken
+                                    the popular framework and included libraries to make
+                                    building internal tools fast.</p>
+                                <p class="build-internal-uis_fakeLink link-primary link-arrow">
+                                    Get started</p>
+                            </div>
+                        </a>
+
+                        <div class="build-internal-uis_border border-gradient-2 md-ml--1px hidden md-block z-10">
+                            <!-- *********** Header Start *********** -->
+                            <div class="absolute w-calc(100%+2px) left--1px top--26px">
+                                <div class="title-bar_titleBar bg-gradient-2">
+                                    <div class="title-bar_dots"></div>
+                                    <p class="font-mono text-xs !m-0"> Dashboard.spark.tsx</p>
+                                </div>
+                            </div>
+                            <!-- *********** Header End *********** -->
+
+                            <!-- *********** Body Start *********** -->
+                            <div class="build-internal-uis_contentCode">
+
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-sm line-numbers no-scrollbar language-jsx" tabindex="0">
+    <code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">CustomerDashboard</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Customer dashboard</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Title</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Warning, sensitive operations ahead!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Text</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Table</span></span>
+        <span class="token attr-name">task</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list_customers<span class="token punctuation">"</span></span>
+        <span class="token attr-name">rowActions</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation"></span><span class="token string">"deactivate"</span><span class="token punctuation"></span><span class="token punctuation">}</span></span>
+        <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+                            </div>
+                            <!-- *********** Body End *********** -->
+                        </div>
+                        <!-- %%%%%%% Row End %%%%%%%% -->
+
+
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="hidden md-block"></div>
+
+                        <div class="build-internal-uis_border border border-gradient-2 md-ml--1px mt--1px hidden md-block">
+                            <img src="assets/media/home/views-dashboard.svg" class="object-cover w-full h-full" />
+                        </div>
+                        <!-- %%%%%%%  Row End %%%%%%%% -->
+
+                    </div>
+
+
+
+                    <div class="build-internal-uis_grid grid-rows-1">
+                        <div class="hidden lg-block dimesion_container dimesion_p-opposition dimesion_d-vertical dimesion_noText" style="--margin:46px">
+                            <div class="dimesion_dimension"><p></p></div>
+                        </div>
+
+                        
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="build-internal-uis_border border-gradient-2-rev hidden md-block">
+                            <div class="absolute w-calc(100%+2px) left--1px top--26px">
+                                <div class="title-bar_titleBar bg-gradient-2-rev">
+                                    <div class="title-bar_dots"></div>
+                                    <p class="font-mono text-xs !m-0">Components.spark.tsx</p>
+                                </div>
+                            </div>
+                            <div class="build-internal-uis_contentCode">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-sm line-numbers no-scrollbar language-jsx" tabindex="0">
+    <code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Heading</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Component examples</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Heading</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Table</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Recent orders<span class="token punctuation">"</span></span> <span class="token attr-name">data</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>filteredOrders<span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Chart</span></span> <span class="token attr-name">data</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>signupsOverTime<span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">List</span></span> <span class="token attr-name">data</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>customers<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    (customer) =&gt; </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Card</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">{</span>customer<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Card</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">List</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+                            </div>
+                        </div>
+                        <div class="build-internal-uis_border border-gradient-2 md-ml--1px">
+                            <div class="build-internal-uis_content max-w-370px">
+                                <h3 class="mb-4 text-2xl font-medium">Component toolkit included.</h3>
+                                <p class="leading-1.48 text-gray-300 mb-4">
+                                    Select from spark&#x27;s library of <span class="md-cursor-pointer px-1 inline-block rounded-md md-bg-gray-800">tables</span>,
+                                    <span class="md-cursor-pointer px-1 inline-block rounded-md md-bg-gray-800">forms</span>,
+                                    <span class="md-cursor-pointer px-1 inline-block rounded-md md-bg-gray-800">charts</span>,
+                                    and more. Design system and UX best practices out of the box.
+                                </p>
+                                <a class="block mt-auto link-primary link-arrow text-soft-cyan" href="">Components</a>
+                            </div>
+                        </div>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+
+
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="build-internal-uis_border border-gradient-2-rev mt--1px hidden md-block">
+                            <div class="grid h-full bg-white place-items-center">
+                                <div class="build-internal-uis_carousel">
+                                    <div class="build-internal-uis_carouselContainer">
+                                        <div class="build-internal-uis_carouselSlide">
+                                            <img src="assets/media/branding/views-comp-table.05fe487d.svg" class="img1"/>
+                                        </div>
+                                        <div class="build-internal-uis_carouselSlide">
+                                            <img src="assets/media/branding/views-comp-form.309f659a.svg" class="img1"/>
+                                        </div>
+                                        <div class="build-internal-uis_carouselSlide">
+                                            <img src="assets/media/branding/views-comp-chart.80d36fe9.svg" class="img1"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hidden md-block"></div>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+                    </div>
+
+
+                    <div class="build-internal-uis_grid grid-rows-1">
+                        <div class="hidden lg-block dimesion_container dimesion_p-default dimesion_d-vertical dimesion_noText" style="--margin:46px">
+                            <div class="dimesion_dimension"> <p></p> </div>
+                        </div>
+
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="build-internal-uis_border border-gradient-2 md-border-gradient-2-rev z-10">
+                            <div class="build-internal-uis_content max-w-370px">
+                                <h3 class="mb-4 text-2xl font-medium">Fully extensible as code.</h3>
+                                <p class="leading-1.48 text-gray-300">Actually built for
+                                    developers. Integrate with APIs, add custom
+                                    components, and import existing libraries. Write unit
+                                    tests, version control with GitHub, and release with
+                                    CI/CD.</p>
+                            </div>
+                        </div>
+                        <div class="build-internal-uis_border border-gradient-2 md-ml--1px mb--1px z-10 hidden md-block">
+                            <div class="absolute z-10 w-calc(100%+2px) left--1px top--27px">
+                                <div class="title-bar_titleBar bg-gradient-2">
+                                    <div class="title-bar_dots"></div>
+                                    <p class="font-mono text-xs !m-0"> CustomCode.spark.tsx</p>
+                                </div>
+                            </div>
+
+                            <div class="build-internal-uis_contentCode">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-sm line-numbers no-scrollbar language-jsx" tabindex="0">
+    <code class="language-jsx"><span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">"axios"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StoreMap <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"../components/maps"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">StoreApproval</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> store <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token function-variable function">sendAPIRequest</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> axios<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">store</span><span class="token operator">:</span> store<span class="token punctuation">.</span>id<span class="token punctuation">,</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">StoreMap</span></span> <span class="token attr-name">location</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>store<span class="token punctuation">.</span>location<span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Button</span></span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>sendAPIRequest<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+        Approve
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Button</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Stack</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+</code>
+</pre>
+                            </div>
+                        </div>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+                        
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="hidden md-block"></div>
+                        <div
+                            class="build-internal-uis_border border border-gray-500 md-ml--1px hidden md-block">
+                            <div class="grid h-full place-items-center"><img src="assets/media/home/views-extend-map.png"
+                                    class="object-cover w-full h-full" /></div>
+                        </div>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section class="write-scripts_section relative mx-auto container max-w-1210px">
+
+            <!-- ********** Gradient Seprator Start ********** -->
+            <div style="will-change:opacity, transform" class="section_gradientContainer">
+                <img alt="gradient" src="assets/media/home/gradient-34110.png" width="1212" height="403" />
+            </div>
+            <!-- ********** Gradient Seprator End ********** -->
+
+
+            <div class="relative px-3 bg-gray-600 section-border-gradient-3 md-px-6 lg-px-16 xl-px-24 py-14 md-py-24">
+                <div class="relative z-10">
+                    
+                    <!-- *********** Title Start *********** -->
+                    <div class="h-24px overflow-hidden">
+                        <div class="mb-2"> <p class="font-mono text-base uppercase text-orange">Tasks</p> </div>
+                    </div>
+                    <h2 class="font-medium font-display text-4.5xl md-text-6xl lg-text-7.5xl mb-14">
+                        Turn scripts into <br /><span class="text-gradient_textGradient3__bFNwu">production-grade apps</span>
+                    </h2>
+                    <!-- *********** Title End *********** -->
+
+
+                    <div class="write-scripts_grid">
+
+
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="write-scripts_frame1__qI7im">
+                            <!-- Header Title Start -->
+                            <div class="absolute z-10 w-calc(100%+2px) left--1px top--26px">
+                                <div class="title-bar_titleBar bg-gradient-3">
+                                    <div class="title-bar_dots"></div>
+                                    <p class="font-mono text-xs !m-0">myTask.spark.ts </p>
+                                </div>
+                            </div>
+                            <!-- Header Title -->
+                            <div></div>
+                            <div class="text-11px sm-text-xs xl-text-sm pl-2 pr-4 py-8">
+<pre class="font-mono overflow-x-auto overflow-y-clip w-full text-11px md-text-sm line-numbers no-scrollbar language-jsx" tabindex="0"><code class="language-jsx"><span class="token keyword">import</span> <span class="token punctuation">{</span> refund <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"../lib/businessLogic"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> spark<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span>
+    <span class="token punctuation">{</span> <span class="token literal-property property">slug</span><span class="token operator">:</span> <span class="token string">"my_task"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">(</span><span class="token parameter">params</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> txID <span class="token operator">=</span> <span class="token function">refund</span><span class="token punctuation">(</span>
+        params<span class="token punctuation">.</span>userID<span class="token punctuation">,</span> params<span class="token punctuation">.</span>amount
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span> <span class="token string-property property">"confirmation"</span><span class="token operator">:</span> txID <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                            </div>
+                        </div>
+                        <div class="write-scripts_frame2__99oC5 write-scripts_content__dmVD3">
+                            <div class="h-20 mb-8"><svg width="135" height="76" viewBox="0 0 135 76" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="motion-safe:opacity-0" cx="97" cy="38" r="38" fill="url(#paint0_linear_23_10237)" style="transform-origin: 50% 50%; opacity: 1; transform: scale(1);"></circle><circle class="motion-safe:opacity-0" cx="12" cy="38" r="11.5" stroke="#F4F4F5" style="opacity: 1; transform: translateX(0%);"></circle><path class="motion-safe:opacity-0" d="M79.3536 38.3536C79.5488 38.1583 79.5488 37.8417 79.3536 37.6464L76.1716 34.4645C75.9763 34.2692 75.6597 34.2692 75.4645 34.4645C75.2692 34.6597 75.2692 34.9763 75.4645 35.1716L78.2929 38L75.4645 40.8284C75.2692 41.0237 75.2692 41.3403 75.4645 41.5355C75.6597 41.7308 75.9763 41.7308 76.1716 41.5355L79.3536 38.3536ZM9 38.5L79 38.5V37.5L9 37.5V38.5Z" fill="#F4F4F5" style="opacity: 1; transform: translateX(0%);"></path><rect x="47" y="30" width="24" height="6" class="motion-safe:opacity-0" fill="url(#paint1_linear_23_10237)" style="transform-origin: 50% 50%; opacity: 1; transform: translateY(15%) translateX(-20%) rotate(90deg);"></rect><defs><linearGradient id="paint0_linear_23_10237" x1="59" y1="75.9999" x2="135" y2="75.9999" gradientUnits="userSpaceOnUse"><stop stop-color="#2F3CC9"></stop><stop offset="1" stop-color="#AD52DD"></stop></linearGradient><linearGradient id="paint1_linear_23_10237" x1="47" y1="36" x2="71" y2="36" gradientUnits="userSpaceOnUse"><stop stop-color="#2F3CC9"></stop><stop offset="1" stop-color="#AD52DD"></stop></linearGradient></defs></svg></div>
+                            <div class="max-w-md">
+                                <h3 class="mb-4 text-2xl font-medium">Tasks are scripts for your entire team.</h3>
+                                <p class="leading-1.48 text-gray-300">Stop running
+                                    backfills from your laptop. Deploy JS, Python, SQL,
+                                    and more to spark and get production-grade apps.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+                        
+                        <!-- %%%%%%%%  Row start %%%%%%% -->
+                        <div class="write-scripts_frame3__Par_R">
+                            <div class="grid h-full place-items-center">
+                                <img src="assets/media/home/tasks-form.svg" class="w-full h-full object-contain bg-white" />
+                            </div>
+                        </div>
+
+
+                        <a class="write-scripts_frame4__Krdwx write-scripts_content__dmVD3" href="#">
+                            <div class="h-24 mb-6">
+                                <svg width="81" height="102" viewBox="0 0 81 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="motion-safe:opacity-0" d="M1 28.4286L47 2V54.5L1 82V28.4286Z" stroke="#F4F4F5" stroke-width="1.29824"
+                                        style="opacity: 1; transform: translate(0px, 0px);"></path>
+                                    <path class="motion-safe:opacity-0" d="M13 37.4286L59 11V63.5L13 91V37.4286Z" fill="url(#paint0_linear_9_10010)"
+                                        style="transform-origin: 50% 50%; opacity: 1; transform: scale(1);"></path>
+                                    <path class="motion-safe:opacity-0" d="M29 46.4286L75 20V72.5L29 100V46.4286Z" stroke="#F4F4F5" stroke-width="1.29824"
+                                        style="opacity: 1; transform: translate(0px, 0px);"></path>
+                                    <circle class="motion-safe:opacity-0" cx="75" cy="37" r="6" fill="url(#paint1_linear_9_10010)"
+                                        style="opacity: 1; transform: translateY(0px);"></circle>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_9_10010" x1="58.0612" y1="90.9999" x2="13.2347" y2="90.9999"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF6B3B"></stop>
+                                            <stop offset="1" stop-color="#AD52DD"></stop>
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_9_10010" x1="69.2449" y1="43" x2="80.9388" y2="43" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF6B3B"></stop>
+                                            <stop offset="1" stop-color="#AD52DD"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>  
+                            <div class="max-w-md">
+                                <h3 class="mb-4 text-2xl font-medium">Scheduled tasks.</h3>
+                                <p class="leading-1.48 text-gray-300 mb-4">Cron built in. Take any task and automatically run it on a cadence.</p>
+                                <p class="write-scripts_fakeLink__TwTvm link-primary link-arrow"> Docs</p>
+                            </div>
+                        </a>
+
+
+                        <a class="write-scripts_frame5__6Ptws write-scripts_content__dmVD3" href="#">
+                            <div class="h-24 mb-6">
+                                <svg width="91" height="77" viewBox="0 0 91 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="motion-safe:opacity-0"
+                                        d="M4.71966 29.0869C4.94782 28.9313 5.25889 28.9902 5.41444 29.2183L7.94941 32.9364C8.10497 33.1646 8.04611 33.4756 7.81795 33.6312C7.58979 33.7867 7.27873 33.7279 7.12317 33.4997L4.86987 30.1948L1.56493 32.4481C1.33677 32.6036 1.02571 32.5448 0.870151 32.3166C0.714593 32.0885 0.773447 31.7774 1.00161 31.6218L4.71966 29.0869ZM30.001 76C29.8587 76.4793 29.8583 76.4792 29.8578 76.4791C29.8575 76.479 29.8568 76.4788 29.8562 76.4786C29.8548 76.4782 29.853 76.4776 29.8507 76.4769C29.8462 76.4756 29.8396 76.4736 29.8313 76.471C29.8145 76.4659 29.7901 76.4583 29.7585 76.4483C29.6952 76.4283 29.6027 76.3983 29.4833 76.358C29.2444 76.2773 28.8974 76.1548 28.4598 75.9861C27.5847 75.6487 26.3463 75.1263 24.8838 74.3833C21.9604 72.8979 18.1336 70.5264 14.5255 66.9817C7.29016 59.8732 0.976564 48.0826 4.51004 29.407L5.49261 29.593C2.02556 47.9174 8.2118 59.3768 15.2264 66.2683C18.7433 69.7236 22.479 72.0396 25.3368 73.4917C26.765 74.2174 27.9719 74.7263 28.8195 75.053C29.2432 75.2163 29.5769 75.3341 29.8034 75.4106C29.9166 75.4488 30.0029 75.4768 30.0603 75.4949C30.089 75.504 30.1105 75.5107 30.1244 75.5149C30.1313 75.5171 30.1364 75.5186 30.1396 75.5196C30.1411 75.52 30.1422 75.5204 30.1429 75.5206C30.1432 75.5206 30.1433 75.5207 30.1434 75.5207C30.1434 75.5207 30.1433 75.5207 30.001 76Z"
+                                        fill="#F4F4F5"
+                                        style="transform-origin: 50% 0%; opacity: 1; transform: rotate(0deg) translateY(0px) translateX(0px) scaleY(1);">
+                                    </path>
+                                    <path class="motion-safe:opacity-0" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M42.4647 10.5C40.7673 10.5004 39.1396 11.175 37.9397 12.3755C36.7397 13.5761 36.0658 15.2041 36.0662 16.9015C36.0666 18.5988 36.7412 20.2266 37.9417 21.4265C39.1422 22.6265 40.7703 23.3004 42.4676 23.3H48.8676V16.9C48.8661 15.2031 48.1913 13.5761 46.9914 12.3762C45.7915 11.1763 44.1646 10.5015 42.4676 10.5H42.4647ZM42.4647 27.5676H25.4C23.7026 27.5676 22.0747 28.2419 20.8745 29.4422C19.6743 30.6424 19 32.2703 19 33.9676C19 35.665 19.6743 37.2929 20.8745 38.4931C22.0747 39.6934 23.7026 40.3676 25.4 40.3676H42.4647C44.1621 40.3676 45.79 39.6934 46.9902 38.4931C48.1904 37.2929 48.8647 35.665 48.8647 33.9676C48.8647 32.2703 48.1904 30.6424 46.9902 29.4422C45.79 28.2419 44.1621 27.5676 42.4647 27.5676V27.5676ZM83 33.9647C83 32.2673 82.3257 30.6395 81.1255 29.4392C79.9253 28.239 78.2974 27.5647 76.6 27.5647C74.9026 27.5647 73.2748 28.239 72.0745 29.4392C70.8743 30.6395 70.2 32.2673 70.2 33.9647V40.3647H76.6C78.2974 40.3647 79.9253 39.6904 81.1255 38.4902C82.3257 37.29 83 35.6621 83 33.9647V33.9647ZM65.9324 33.9647V16.9C65.9324 15.2026 65.2581 13.5747 64.0578 12.3745C62.8576 11.1743 61.2297 10.5 59.5324 10.5C57.835 10.5 56.2071 11.1743 55.0069 12.3745C53.8066 13.5747 53.1324 15.2026 53.1324 16.9V33.9647C53.1324 35.6621 53.8066 37.29 55.0069 38.4902C56.2071 39.6904 57.835 40.3647 59.5324 40.3647C61.2297 40.3647 62.8576 39.6904 64.0578 38.4902C65.2581 37.29 65.9324 35.6621 65.9324 33.9647V33.9647ZM59.5324 74.5C61.2297 74.5 62.8576 73.8257 64.0578 72.6255C65.2581 71.4253 65.9324 69.7974 65.9324 68.1C65.9324 66.4026 65.2581 64.7748 64.0578 63.5745C62.8576 62.3743 61.2297 61.7 59.5324 61.7H53.1324V68.1C53.1331 69.7971 53.8077 71.4246 55.0077 72.6246C56.2078 73.8247 57.8352 74.4992 59.5324 74.5ZM59.5324 57.4295H76.6C78.2974 57.4295 79.9253 56.7552 81.1255 55.5549C82.3257 54.3547 83 52.7268 83 51.0295C83 49.3321 82.3257 47.7042 81.1255 46.504C79.9253 45.3037 78.2974 44.6295 76.6 44.6295H59.5353C57.8379 44.6291 56.2099 45.303 55.0094 46.5029C53.8089 47.7029 53.1342 49.3306 53.1338 51.028C53.1334 52.7254 53.8073 54.3534 55.0073 55.5539C56.2073 56.7544 57.835 57.4291 59.5324 57.4295V57.4295ZM19 51.0324C19 52.7297 19.6743 54.3576 20.8745 55.5578C22.0747 56.7581 23.7026 57.4324 25.4 57.4324C27.0974 57.4324 28.7253 56.7581 29.9255 55.5578C31.1257 54.3576 31.8 52.7297 31.8 51.0324V44.6324H25.4C23.7026 44.6324 22.0747 45.3066 20.8745 46.5069C19.6743 47.7071 19 49.335 19 51.0324V51.0324ZM36.0676 51.0324V68.0971C36.0673 69.7945 36.7412 71.4225 37.9411 72.623C39.1411 73.8235 40.7688 74.4982 42.4662 74.4985C44.1636 74.4989 45.7916 73.825 46.9921 72.6251C48.1926 71.4251 48.8673 69.7974 48.8676 68.1V51.0353C48.868 49.3379 48.1941 47.7099 46.9941 46.5094C45.7942 45.3089 44.1665 44.6342 42.4691 44.6338C40.7717 44.6334 39.1437 45.3073 37.9432 46.5073C36.7427 47.7073 36.068 49.335 36.0676 51.0324V51.0324Z"
+                                        fill="url(#paint0_linear_9_10025)"
+                                        style="transform-origin: 50% 50%; opacity: 1; transform: rotate(0deg) scale(1);"></path>
+                                    <path class="motion-safe:opacity-0"
+                                        d="M90.5 16.5C90.5 25.046 83.3512 32 74.5 32C65.6488 32 58.5 25.046 58.5 16.5C58.5 7.95398 65.6488 1 74.5 1C83.3512 1 90.5 7.95398 90.5 16.5Z"
+                                        stroke="#F4F4F5" style="transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px);"></path>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_9_10025" x1="19" y1="74.4999" x2="83" y2="74.4999"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#A8D9CC"></stop>
+                                            <stop offset="1" stop-color="#29328D"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="max-w-md">
+                                <h3 class="mb-4 text-2xl font-medium">Execute from Slack. </h3>
+                                <p class="leading-1.48 text-gray-300 mb-4">Run tasks from Slack and get notified when long-running jobs complete.</p>
+                                <p class="write-scripts_fakeLink__TwTvm link-primary link-arrow">Docs</p>
+                            </div>
+                        </a>
+                        <!-- %%%%%%%%  Row End %%%%%%% -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ******* Global File ****** -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/plugins/aos/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+
+
+</body>
+</html>
